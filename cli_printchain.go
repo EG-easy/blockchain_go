@@ -6,12 +6,12 @@ import (
 )
 
 func (cli *CLI) printChain(){
-	bc := NewBlockchain("")
+	bc := NewBlockchain()
 	defer bc.db.Close()
 
 	bci := bc.Iterator()
 
-	for{
+	for {
 		block := bci.Next()
 
 		fmt.Printf("============ Block %x ============\n", block.Hash)
