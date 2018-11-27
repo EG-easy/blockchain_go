@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0998a05-d747-4a7d-a63d-f0e7fe8ddec4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli_startnode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/block.go" beforeDir="false" afterPath="$PROJECT_DIR$/block.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain.db" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cli.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proofofwork.go" beforeDir="false" afterPath="$PROJECT_DIR$/proofofwork.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_createblockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli_createblockchain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_createwallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli_createwallet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_getbalance.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli_getbalance.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_listaddresses.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli_listaddresses.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_printchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli_printchain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_reindexutxo.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli_reindexutxo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_send.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli_send.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/transaction.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/wallet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallets.go" beforeDir="false" afterPath="$PROJECT_DIR$/wallets.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,63 +37,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proofofwork.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proofofwork.go">
+      <file leaf-file-name="merkle_tree.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/merkle_tree.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="825">
+              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cli_startnode.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli_startnode.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <element signature="e#14#77#0" expanded="true" />
+                <element signature="e#14#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="int.go" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/math/big/int.go">
+      <file leaf-file-name="utxo_set.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utxo_set.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6195">
-              <caret line="418" selection-start-line="418" selection-end-line="418" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="421">
+              <caret line="184" column="1" selection-start-line="184" selection-start-column="1" selection-end-line="184" selection-end-column="1" />
               <folding>
-                <element signature="e#14#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="block.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/block.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-              <folding>
-                <element signature="e#14#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blockchain.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blockchain.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3615">
-              <caret line="241" column="1" selection-start-line="241" selection-start-column="1" selection-end-line="241" selection-end-column="1" />
-              <folding>
-                <element signature="e#14#57#0" expanded="true" />
+                <element signature="e#14#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,22 +73,61 @@
       <file leaf-file-name="cli.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cli.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="751">
-              <caret line="145" column="1" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
+            <state relative-caret-position="840">
+              <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
               <folding>
-                <element signature="e#14#38#0" expanded="true" />
+                <element signature="e#14#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="transaction.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/transaction.go">
+      <file leaf-file-name="cli_createwallet.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli_createwallet.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-350">
-              <caret line="54" selection-end-line="101" />
+            <state relative-caret-position="165">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wallet.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wallet.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-329">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
-                <element signature="e#14#40#0" expanded="true" />
+                <element signature="e#14#140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4934">
+              <caret line="360" column="18" selection-start-line="360" selection-start-column="11" selection-end-line="360" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cli_reindexutxo.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli_reindexutxo.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cli_send.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli_send.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#14#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,6 +142,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ValidateAddress</find>
+      <find>db</find>
+      <find>10</find>
+      <find>version</find>
+    </findStrings>
+  </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -132,13 +157,32 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/utils.go" />
-        <option value="$PROJECT_DIR$/block.go" />
-        <option value="$PROJECT_DIR$/proofofwork.go" />
         <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/cli.go" />
-        <option value="$PROJECT_DIR$/transaction.go" />
+        <option value="$PROJECT_DIR$/blockchain_iterator.go" />
+        <option value="$PROJECT_DIR$/transaction_input.go" />
+        <option value="$PROJECT_DIR$/utils.go" />
+        <option value="$PROJECT_DIR$/cli_listaddress.go" />
+        <option value="$PROJECT_DIR$/transaction_output.go" />
+        <option value="$PROJECT_DIR$/merkle_tree.go" />
+        <option value="$PROJECT_DIR$/merkle_tree_test.go" />
+        <option value="$PROJECT_DIR$/base58.go" />
+        <option value="$PROJECT_DIR$/proofofwork.go" />
+        <option value="$PROJECT_DIR$/utxo_set.go" />
+        <option value="$PROJECT_DIR$/block.go" />
+        <option value="$PROJECT_DIR$/server.go" />
         <option value="$PROJECT_DIR$/blockchain.go" />
+        <option value="$PROJECT_DIR$/cli_createblockchain.go" />
+        <option value="$PROJECT_DIR$/wallets.go" />
+        <option value="$PROJECT_DIR$/transaction.go" />
+        <option value="$PROJECT_DIR$/cli_getbalance.go" />
+        <option value="$PROJECT_DIR$/cli_listaddresses.go" />
+        <option value="$PROJECT_DIR$/cli_printchain.go" />
+        <option value="$PROJECT_DIR$/cli_reindexutxo.go" />
+        <option value="$PROJECT_DIR$/cli_send.go" />
+        <option value="$PROJECT_DIR$/cli_startnode.go" />
+        <option value="$PROJECT_DIR$/cli.go" />
+        <option value="$PROJECT_DIR$/cli_createwallet.go" />
+        <option value="$PROJECT_DIR$/wallet.go" />
       </list>
     </option>
   </component>
@@ -152,10 +196,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="9" />
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="843" />
+    <option name="width" value="714" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -163,6 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,7 +217,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,16 +258,17 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26108727" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.46782842" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3648485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23104435" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40363637" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -234,7 +277,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +291,134 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/block.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#14#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+          <folding>
+            <element signature="e#14#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli_getbalance.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#14#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transaction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#14#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proofofwork.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#14#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/go/src/math/big/int.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6270">
+          <caret line="418" selection-start-line="418" selection-end-line="418" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="e#14#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3285">
+          <caret line="225" column="23" lean-forward="true" selection-start-line="225" selection-start-column="23" selection-end-line="225" selection-end-column="23" />
+          <folding>
+            <element signature="e#14#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wallet.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2085">
+          <caret line="145" column="1" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transaction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1965">
+          <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
+          <folding>
+            <element signature="e#14#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -277,9 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -298,7 +465,7 @@
         <state relative-caret-position="225">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
-            <element signature="e#14#57#0" expanded="true" />
+            <element signature="e#14#121#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -317,12 +484,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/local/go/src/encoding/gob/decoder.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/utils.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="345">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base58.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../boltdb/bolt/tx.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="106" column="14" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/merkle_tree_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
           <folding>
-            <element signature="e#14#59#0" expanded="true" />
+            <element signature="e#14#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -330,12 +525,133 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/block.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-end-line="66" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5070">
+          <caret line="338" column="1" lean-forward="true" selection-end-line="338" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_iterator.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="18" lean-forward="true" selection-end-line="30" />
+          <folding>
+            <element signature="e#14#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli_createblockchain.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="e#14#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wallets.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="91" column="1" lean-forward="true" selection-end-line="91" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transaction_output.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transaction_input.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transaction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="73" column="23" lean-forward="true" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+          <folding>
+            <element signature="e#14#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/proofofwork.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="120">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
             <element signature="e#14#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli_getbalance.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#14#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli_listaddresses.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#14#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli_printchain.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli_reindexutxo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli_send.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#14#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -347,42 +663,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cli.go">
+    <entry file="file://$PROJECT_DIR$/merkle_tree.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="145" column="1" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="825">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/block.go">
+    <entry file="file://$PROJECT_DIR$/cli_startnode.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="e#14#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transaction.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
-          <caret line="54" selection-end-line="101" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#14#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blockchain.go">
+    <entry file="file://$PROJECT_DIR$/cli.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3615">
-          <caret line="241" column="1" selection-start-line="241" selection-start-column="1" selection-end-line="241" selection-end-column="1" />
+        <state relative-caret-position="840">
+          <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
           <folding>
-            <element signature="e#14#57#0" expanded="true" />
+            <element signature="e#14#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli_createwallet.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utxo_set.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="184" column="1" selection-start-line="184" selection-start-column="1" selection-end-line="184" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4934">
+          <caret line="360" column="18" selection-start-line="360" selection-start-column="11" selection-end-line="360" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wallet.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-329">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#14#140#0" expanded="true" />
           </folding>
         </state>
       </provider>

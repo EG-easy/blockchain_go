@@ -5,7 +5,6 @@ import (
 	"bytes"
 	"encoding/gob"
 	"log"
-	"crypto/sha256"
 )
 
 type Block struct {
@@ -14,10 +13,11 @@ type Block struct {
 	PrevBlockHash []byte
 	Hash          []byte
 	Nonce         int
+	Height        int
 }
 
-func NewBlock(transactions []*Transaction, prevBlockHash []byte) *Block {
-	block := &Block{time.Now().Unix(), transactions, prevBlockHash, []byte{}, 0}
+func NewBlock(transactions []*Transaction, prevBlockHash []byte, height int) *Block {
+	block := &Block{time.Now().Unix(), transactions, prevBlockHash, []byte{}, 0, height}
 	pow := NewProofOfWork(block)
 	nonce, hash := pow.Run()
 
@@ -28,7 +28,18 @@ func NewBlock(transactions []*Transaction, prevBlockHash []byte) *Block {
 }
 
 func NewGenesisBlock(coinbase *Transaction) *Block {
-	return NewBlock([]*Transaction{coinbase}, []byte{})
+	return NewBlock([]*Transaction{coinbase}, []byte{}, 0)
+}
+
+func (b *Block) HashTransactions() []byte{
+	var transactions [][]byte
+
+	for _, tx := range b.Transactions {
+		transactions = append(transactions, tx.Serialize())
+	}
+	mTree := NewMerkleTree(transactions)
+
+	return mTree.RootNode.Data
 }
 
 func (b *Block) Serialize() []byte {
@@ -36,8 +47,8 @@ func (b *Block) Serialize() []byte {
 	encoder := gob.NewEncoder(&result)
 
 	err := encoder.Encode(b)
-	if err != nil{
-		log.Fatal(err)
+	if err != nil {
+		log.Panic(err)
 	}
 
 	return result.Bytes()
@@ -53,16 +64,4 @@ func DeserializeBlock(d []byte) *Block{
 		log.Fatal(err)
 	}
 	return &block
-}
-
-func (b *Block) HashTransactions() []byte{
-	var txHashes [][]byte
-	var txHash [32]byte
-
-	for _, tx := range b.Transactions {
-		txHashes = append(txHashes, tx.ID)
-	}
-	txHash = sha256.Sum256(bytes.Join(txHashes, []byte{}))
-
-	return txHash[:]
 }
